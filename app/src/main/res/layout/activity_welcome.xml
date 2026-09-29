@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Full-screen background image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/docc" />
+
+    <!-- Text and Button container -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:background="@android:color/transparent">
+
+        <!-- Welcome text -->
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to DrMeet"
+            android:textSize="30sp"
+            android:textColor="#252323"
+            android:textStyle="bold" />
+
+        <!-- Subtitle text -->
+        <TextView
+            android:id="@+id/subtitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exceptional Care Close to You"
+            android:textSize="23sp"
+            android:textColor="#232121"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"/>
+
+        <!-- Get Started Button -->
+        <Button
+            android:id="@+id/getStartedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_marginTop="22dp"
+            android:backgroundTint="#692275"
+            android:text="Get Started >"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

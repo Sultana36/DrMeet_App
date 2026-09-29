@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/banew_2"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="214dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#4A2D50"
+        android:text="     Hello Admin!"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_insert_place"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#55285C"
+        android:textColor="@color/white"
+        android:text="Insert Doctor" />
+
+    <Button
+        android:id="@+id/btn_view_place"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#55285C"
+        android:textColor="@color/white"
+        android:text="View Doctor" />
+
+    <Button
+        android:id="@+id/btn_update_place"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#55285C"
+        android:textColor="@color/white"
+        android:text="Update Doctor" />
+
+    <Button
+        android:id="@+id/btn_delete_place"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#55285C"
+        android:textColor="@color/white"
+        android:text="Delete Doctor" />
+    <Button
+        android:id="@+id/btn_view_patient"
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#55285C"
+        android:textColor="@color/white"
+        android:text="View Patient" />
+
+</LinearLayout>

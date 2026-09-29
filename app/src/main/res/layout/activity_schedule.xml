@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bak4"
+    android:padding="16dp"
+    tools:context=".ScheduleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Morning Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose your Slot for Tomorrow"
+            android:textColor="#111C71"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:id="@+id/tv_date"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Morning"
+            android:textColor="#111C71"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginBottom="16dp">
+
+            <!-- Morning Slots -->
+            <Button
+                android:id="@+id/btn_morning1"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="10:00 To 10:30" />
+
+            <Button
+                android:id="@+id/btn_morning2"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="10:30 To 11:00" />
+
+            <Button
+                android:id="@+id/btn_morning3"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="11:00 To 11:30" />
+
+            <Button
+                android:id="@+id/btn_morning4"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="11:30 To 12:00" />
+
+            <Button
+                android:id="@+id/btn_morning5"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="12:30 To 01:00" />
+
+            <Button
+                android:id="@+id/btn_morning6"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="01:00 To 01:30" />
+
+            <Button
+                android:id="@+id/btn_morning7"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="01:30 To 02:00" />
+
+            <Button
+                android:id="@+id/btn_morning8"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="02:00 To 02:30" />
+        </GridLayout>
+
+        <!-- Evening Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evening"
+            android:textColor="#111C71"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+            <!-- Evening Slots -->
+            <Button
+                android:id="@+id/btn_evening1"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="06:00 To 06:30" />
+
+            <Button
+                android:id="@+id/btn_evening2"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="06:30 To 07:00" />
+
+            <Button
+                android:id="@+id/btn_evening3"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="07:00 To 07:30" />
+
+            <Button
+                android:id="@+id/btn_evening4"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="07:30 To 08:00" />
+
+            <Button
+                android:id="@+id/btn_evening5"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="08:00 To 08:30" />
+
+            <Button
+                android:id="@+id/btn_evening6"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="08:30 To 09:00" />
+
+            <Button
+                android:id="@+id/btn_evening7"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="09:00 To 09:30" />
+
+            <Button
+                android:id="@+id/btn_evening8"
+                style="@style/TimeSlotButton"
+                android:layout_width="156dp"
+                android:text="09:30 To 10:00" />
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+
+

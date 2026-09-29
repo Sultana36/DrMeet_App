@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "770775472909",
+    "firebase_url": "https://drmeet-4bb63-default-rtdb.firebaseio.com",
+    "project_id": "drmeet-4bb63",
+    "storage_bucket": "drmeet-4bb63.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770775472909:android:ddf1bbfc35c5d805c26e44",
+        "android_client_info": {
+          "package_name": "com.example.drmeet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpWjgeUiFman4yTYodma0cqmdJfd0I-lU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
